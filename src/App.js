@@ -7,7 +7,7 @@ function App() {
   const [selected, setSelected] = useState('');
   const [dishes, setDishes] = useState([]);
   const [name, setName] = useState('');
-  const [weight, setWeight] = useState(0);
+  const [weight, setWeight] = useState();
   const columns = [
     {
       title: '菜名',
